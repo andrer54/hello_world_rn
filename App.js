@@ -22,33 +22,39 @@ import {
 
 const App: () => React$Node = () => {
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView>
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
+         
+    <View style={styles.container}>
+      <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Welcome world! :P</Text>
-            </View>
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
+              <Text style={styles.descricao}>Começando com react-native!</Text>
+      </View>           
+    </View>
+
   );
 };
 
 const styles = StyleSheet.create({
 
-
+  container: {
+    flex: 1,
+    alignItems:'center',
+    justifyContent: 'center',
+  },
   sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+    margin: 25,
+    padding: 25,
+    
+    backgroundColor: '#4365c4',
+    borderRadius: 3,
+
+    
   },
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
+    color: Colors.white,
   },
+
 
 
 
