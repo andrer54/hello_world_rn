@@ -17,11 +17,7 @@ import {
 } from 'react-native';
 
 import {
-  Header,
-  LearnMoreLinks,
   Colors,
-  DebugInstructions,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
@@ -30,16 +26,10 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView>
-          
-
-         
-
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Welcome world! :P</Text>
-
             </View>
-
           </View>
         </ScrollView>
       </SafeAreaView>
